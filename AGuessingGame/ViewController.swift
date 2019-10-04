@@ -49,7 +49,8 @@ let targetNumber = Int.random(in: 1...100)
         let guessNumber = Int(guessText)!
         
         // For testing purposes, what was the guess?
-        print("For testing purposes, the guess made was \)
+        print("For testing purposes, the guess made was \(guessNumber)")
+        
     }
     
 }
